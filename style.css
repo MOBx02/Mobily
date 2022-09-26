@@ -1,0 +1,255 @@
+
+                * {
+                  box-sizing: border-box;
+                }
+                
+                body {
+                  font-family: Arial,sans-serif;
+                  background-image: url("https://bit.ly/3QQbOCw"); 
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background-position: center;
+                  margin: 0;
+                  padding: 0;
+                }
+                
+                
+                
+                
+                /* list inside the menu */
+                 ul {
+                  list-style-type: none;
+                  margin: 30;
+                }
+                
+          
+
+              .bordered {
+                  width: 35rem;
+                  height: 8vh;
+                  margin: auto;
+                  padding: 13px;
+                  border: 1.5px solid ;
+                  border-radius: 20px;
+                  background-color: white
+                  
+                }
+                .border {
+                  width: 30rem;
+                  height: auto;
+                  margin: auto;
+                  padding: 13px;
+                  border: 1px solid goldenrod;
+                  border-radius: 20px;
+                  background-color: #f5ebe0;
+                  color: rgb(0, 0, 0);
+
+                }
+
+                .message-box{
+                  text-align: left;
+                  color: #999999;
+                  border: 1px solid black;
+                  padding: 15px;
+                  border-radius: 40px;
+                    }
+
+                .nav-list {
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: space-between;
+                  gap: 1rem;
+                  margin: 0;
+                  padding: 0;
+                  list-style: none;
+                  background-color: #333;
+                  width: auto; }
+                     
+                .nav-list li {
+                  
+                  flex-grow: 1;
+                  flex-shrink: 1;
+                  padding: 10px 12px;
+                  
+                   }
+                .nav-list li a{
+                  overflow: hidden;
+                  display: block;
+                  color: white;
+                  text-decoration: none;
+                  font-size: 20px;
+                    }
+                li a:hover:not(.active) {
+                        color: #b5b5b5;
+                      }
+                             
+                
+                .img-box {
+                  height: 50px;
+                  width: 50px;
+                  border-radius: 100px;
+                }
+
+                .img-box-side {
+                  height: 40px;
+                  width: 40px;
+                  border-radius: 100px;
+                }
+
+                
+                .mob{
+                  float: right;
+                }
+
+
+                .testimonial-grid{
+                  display: grid;
+                  gap: 1rem;
+                  grid-template-areas: 
+                  'user'
+                  'discu'
+                  'msgs'
+                  'msg-box';
+                    }
+                    
+
+              
+                
+                .mobily {
+                  color: black; 
+                  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                  font-size: 50px;
+                  margin: 30px;
+                  cursor: pointer;
+                  user-select: none;
+                  margin: 0;
+                    }
+
+                ul,p {
+                display: inline;
+                  }
+
+               
+
+          input[type=text]{
+            font-size: 17px;
+            width: 100%;
+            padding:  15px;
+            margin: 0;
+            border: 2px solid #ccc;
+            border-radius: 15px;
+            box-sizing: border-box;
+            position: relative;
+              }
+            
+@media screen and (min-width: 43em) {
+         .mobily {
+          color: black; 
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         font-size: 70px;}
+         ul,p {
+                display: block;
+                  }
+          }      
+        
+@media screen and (min-width: 55em) {
+                .mobily {
+              color: black; 
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 90px;}
+              }
+       
+                 
+    .darkened{
+      background-image: url("https://bit.ly/3QQbOCw");
+        border-radius: 5%;
+          border: 2px solid goldenrod;
+          width: 18rem;
+          height: 20rem;
+          margin-top: 3rem;
+          margin-left: 2rem;
+        }       
+
+      .fir-image-figure {
+        margin: 0;
+        display: flex;
+        margin-bottom: 35px;
+        text-decoration: none;
+        
+      }
+
+      .fir-image-figure figcaption {
+        padding-left: 13px;
+      }
+
+      .fig-author-figure-title {
+        color: black;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light",sans-serif;
+        font-size: 11px;
+      }
+      .fig-author-message {
+        color: black;
+        font-family: " Trebuchet MS", sans-serif;
+        font-size: 13px;
+        margin-bottom: 3px;
+      }
+
+      .img-username{
+              color: #2f4f4f;
+        font-size:80%;
+        font-weight: bold;
+                  }
+
+      .centered{
+            justify-content: center;
+            align-self: center;
+                  }
+
+        .hr0 {
+        border: 0;
+        height: 2px;
+        background-image: linear-gradient(to right, transparent, rgb(0, 0, 0), transparent);  
+        }
+
+              .header {
+                padding: 30px;
+                text-align: center;
+                height: 25vh;
+                        }
+
+
+              .sidebar {
+              float: left;
+              height: 75vh;
+              width: 24vw;;
+              }
+
+              .main-top{
+              float: left;
+              height: 10vh;
+              width: 75vw;
+              margin: 0;
+              }
+              
+
+              .main{
+              float: left;
+              height: calc(100vh - 45vh);
+              width: 75vw;
+              overflow: auto;
+              }
+
+              .main-bot{
+                float: left;
+                height: 10vh;
+                width: 75vw;   
+                }
+                   
+                
+.hover:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+  background-color: #333;
+  border-radius: 30PX;
+}
