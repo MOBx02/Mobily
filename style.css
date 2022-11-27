@@ -64,14 +64,14 @@
                   list-style: none;
                   background-color: #333;
                   width: auto; }
-                     
+                    
                 .nav-list li {
                   
                   flex-grow: 1;
                   flex-shrink: 1;
                   padding: 10px 12px;
                   
-                   }
+                  }
                 .nav-list li a{
                   overflow: hidden;
                   display: block;
@@ -82,8 +82,8 @@
                 li a:hover:not(.active) {
                         color: #b5b5b5;
                       }
-                             
-                
+
+
                 .img-box {
                   height: 50px;
                   width: 50px;
@@ -129,7 +129,7 @@
                 display: inline;
                   }
 
-               
+
 
           input[type=text]{
             font-size: 17px;
@@ -143,11 +143,11 @@
               }
             
 @media screen and (min-width: 43em) {
-         .mobily {
+        .mobily {
           color: black; 
           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-         font-size: 70px;}
-         ul,p {
+        font-size: 70px;}
+        ul,p {
                 display: block;
                   }
           }      
@@ -158,8 +158,8 @@
               font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-size: 90px;}
               }
-       
-                 
+
+
     .darkened{
       background-image: url("https://bit.ly/3QQbOCw");
         border-radius: 5%;
@@ -242,11 +242,23 @@
 
               .main-bot{
                 float: left;
-                height: 10vh;
+                height: 6vh;
                 width: 75vw;   
+                display: inline-flex;
+                margin-top: 15px;
                 }
-                   
+
+              .main-bot #btn1 {
+                background-color: #fff;
+                color: rgb(68, 68, 68);
+                font-weight: 200%;
+                border-radius: 10px;
+                margin-left: 5px;
+                padding: 5px;
                 
+              }
+
+
 .hover:hover {
   color: #ffee10;
   box-shadow: 0 0 5px #ffee10;
